@@ -1,7 +1,6 @@
 import numpy as np
 import cv2
 
-
 def video_to_array(video_path):
     # Open the video file
     cap = cv2.VideoCapture(video_path)
@@ -15,8 +14,8 @@ def video_to_array(video_path):
     total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
     
     # Set target dimensions
-    target_width = 16
-    target_height = 12
+    target_width = 20  # Changed from 16 to 20
+    target_height = 16  # Changed from 12 to 16
     
     # Initialize the 3D array
     video_array = np.zeros((target_width, target_height, total_frames), dtype=np.uint8)
