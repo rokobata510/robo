@@ -1,0 +1,2 @@
+videoToFiles ne egész frame-eket dobjon ki, hanem szinguláris karaktereket
+robo ino kezelje a a kapott serial dolgokat szinguláris karakterként
